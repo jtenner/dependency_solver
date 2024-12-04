@@ -1,0 +1,17 @@
+{
+  "name": "dependency_solver",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {},
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@biomejs/biome": "latest",
+    "prime-lib": "^0.5.0",
+    "typescript": "latest"
+  },
+  "dependencies": {
+  },
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ]
+}
